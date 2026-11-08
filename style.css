@@ -1,0 +1,10 @@
+  html,body{margin:0;height:100%;background:#0d0b14;overflow:hidden;font-family:"Trebuchet MS",Verdana,sans-serif;user-select:none;-webkit-user-select:none;touch-action:none}
+  body{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+  canvas{display:block;background:#000;border:3px solid #ff7a1a;border-radius:8px;box-shadow:0 0 30px #ff7a1a44}
+  #touch{display:none;width:min(100%,940px);justify-content:space-between;align-items:center;gap:8px;padding:0 8px;box-sizing:border-box;flex-wrap:wrap}
+  body.touch.game #touch{display:flex}
+  .grp{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+  body.lefty #touch{flex-direction:row-reverse}
+  #touch button{width:70px;height:54px;border-radius:12px;border:2px solid #ffd60a;background:rgba(20,20,30,.6);color:#fff;font-weight:bold;font-size:13px;touch-action:none;-webkit-tap-highlight-color:transparent}
+  #touch button.big{width:84px;height:62px;background:rgba(255,122,26,.65)}
+  #touch button.on{background:#ffd60a;color:#111}
